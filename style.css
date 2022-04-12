@@ -23,8 +23,6 @@ nav {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-
-
 }
 
 nav>ul {
@@ -61,4 +59,20 @@ nav>ul>li {
 
 ul {
     list-style-type: disc;
+}
+
+.img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tittle {
+    margin-top: 12px;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
 }
