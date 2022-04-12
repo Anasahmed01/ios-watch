@@ -76,3 +76,50 @@ ul {
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-align: center;
 }
+
+.price {
+    font-weight: 600;
+    margin-bottom: 31px;
+    font-size: 21px;
+    line-height: 1.381002381;
+    letter-spacing: .0045em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    text-align: center;
+}
+
+.price p {
+    margin-top: 0.8em;
+}
+
+.icon8 {
+    width: 17px;
+    height: 54px;
+    background-size: 17px 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 3px;
+}
+
+.icon9 {
+    width: 27px;
+    height: 54px;
+    background-size: 27px 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 3px;
+}
+
+.icon10 {
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 3px;
+}
+
+.icon11 {
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    margin: 0 auto 3px;
+}
