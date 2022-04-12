@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(248, 248, 248);
+    margin: 0px;
+}
+
+ul>li {
+    display: flex;
+    text-decoration: none;
+    justify-items: center;
+    display: block;
+
+}
+
+
+
+nav {
+    background-color: white;
+    border: 0px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    list-style-type: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+nav>ul>li {
+    margin-right: 25px;
+    white-space: normal;
+    max-width: 7em;
+    line-height: 1.2;
+    font-size: 11px;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    letter-spacing: inherit;
+}
+
+nav>ul>li {
+    letter-spacing: -0.01em;
+}
+
+ul {
+    list-style-type: disc;
+}
