@@ -211,4 +211,36 @@ ul {
     letter-spacing: .0045em;
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    --sk-button-margin-horizontal: 14px;
+    --sk-button-margin-vertical: 14px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.learnmore {
+    text-decoration: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    order: 2;
 }
