@@ -271,7 +271,7 @@ ul {
     background-repeat: no-repeat;
     --column-gap: 50px;
     --row-gap: 80px;
-    --max-width: 925px;
+    --max-width: 1300px;
     --padding-top: 125px;
     padding: var(--padding-top) 30px;
     max-width: var(--max-width);
@@ -287,10 +287,26 @@ ul {
     grid-template-areas:
         "image copy"
         "image control";
+    background-color: #fff;
+    border-radius: 30px;
+
 }
 
-h2 {
-    background: linear-gradient(90deg, #647284, #4b5a63);
+.item>img {
+    text-align: center;
+    padding-left: 250px;
+}
 
-    -webkit-text-fill-color: transparent;
+span {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.series-button {
+    color: #fff;
+
 }
