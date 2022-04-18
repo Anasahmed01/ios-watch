@@ -235,15 +235,19 @@ ul {
     margin-left: auto;
 }
 
+.learn {
+    text-align: center;
+}
+
 .learnmore {
+    color: #06c;
     text-decoration: none;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    justify-items: center;
-    content: "";
-    clear: both;
-    display: table;
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
 
 }
 
