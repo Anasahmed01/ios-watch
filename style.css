@@ -367,8 +367,8 @@ span {
 
 .div2>div {
     display: flex;
-    padding-top: 150px;
-    height: 744px;
-    width: 1500px;
+    justify-content: center;
+
+    padding: 30px 30px 0;
     background-color: #f5f5f7;
 }
