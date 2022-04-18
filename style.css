@@ -358,3 +358,17 @@ span {
     vertical-align: inherit;
     appearance: auto;
 }
+
+.div2 {
+    height: 894px;
+    width: 1600;
+    background-color: #fff;
+}
+
+.div2>div {
+    display: flex;
+    padding-top: 150px;
+    height: 744px;
+    width: 1500px;
+    background-color: #f5f5f7;
+}
